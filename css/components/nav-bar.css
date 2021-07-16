@@ -13,4 +13,19 @@
 }
 .nav__link{
     color: #2e363e;
+    position: relative;
+}
+.nav__notification{
+    position: absolute;
+    left:17px;
+    bottom: 15px;
+}
+.nav__update{
+    background-color: tomato;
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    position: absolute;
+    left: 35px;
+    bottom: 25px;
 }
