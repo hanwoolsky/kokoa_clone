@@ -22,14 +22,15 @@
             <i class = "fas fa-bolt"></i>
         </div>
     </div>
+
     <header class = "alt-header">
         <div class = "alt-header__column">
-            <a href="more.html">
+            <a href="chats.html">
                 <i class = "fas fa-angle-left fa-2x"></i>
             </a>
         </div>
         <div class = "alt-header__column">
-            <h1 class = "alt-header__title">Hanwool</h1>
+            <h1 class = "alt-header__title">Nicolas</h1>
         </div>
         <div class = "alt-header__column">
             <span><i class = "fas fa-search fa-lg"></i></span>
@@ -37,9 +38,44 @@
         </div>
     </header>
 
-    <main class="main-screen">
-       
+    <main class="main-screen main-chat">
+       <div class = "chat__timestamp">
+           Monday, July 19, 2021
+       </div>
+       <div class = "message-row">
+           <img src = "https://avatars3.githubusercontent.com/u/3612017" />
+           <div class = 'message-row__content'>
+               <span class = "message__author">Nicolas</span>
+               <div class = "message__info">
+                   <span class = "message__bubble">Hi!</span>
+                   <span class = "message__time">21:25</span>
+               </div>
+           </div>
+       </div>
+       <div class = "message-row message-row--own">
+        <div class = 'message-row__content'>
+            <div class = "message__info">
+                <span class = "message__bubble">Heyyyy!</span>
+                <span class = "message__time">21:30</span>
+            </div>
+        </div>
+    </div>
     </main>
+
+    <form class = "reply">
+        <div class="reply__column">
+            <i class = "far fa-plus-square"></i>
+        </div>
+        <div class="reply__column">
+            <input type = "text" placeholder="Write a message..." />
+            <i class = "far fa-smile-wink fa-lg"></i>
+            <button><i class = "fas fa-arrow-up"></i></button>
+        </div>
+    </form>
+
+    <div id = "no-mobile">
+        <span>Your screen is too big :(</span>
+    </div>
     <script
         src="https://kit.fontawesome.com/6478f529f2.js"
         crossorigin="anonymous"

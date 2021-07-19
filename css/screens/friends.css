@@ -24,3 +24,27 @@
     margin-bottom: 30px;
     color: rgba(0, 0, 0, 0.5);
 }
+
+@keyframes hideSplashScreen {
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+#splash-screen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    font-size: 60px;
+    background-color: var(--yellow);
+    animation: hideSplashScreen 0.2s ease-in-out forwards;
+    animation-delay: 2s;
+}
